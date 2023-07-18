@@ -17,14 +17,14 @@ x_mtr = np.load(os.path.join(data_dir, 'train_fft_109lei1024.npy'))
 x_mtr = np.transpose(x_mtr, (0, 1, 2,3))
 x_mtr = np.reshape(x_mtr, [84*200, 1024])
 
-y_tr=np.ones([84*200,1])
+y_tr=np.ones([84*200,1]) #设置的标签没有意义
 
 
 x_mva = np.load(os.path.join(data_dir, 'test_fft_109lei1024.npy'))
 x_mva = np.transpose(x_mva, (0, 1, 2, 3))
 x_mva = np.reshape(x_mva, [25*200,1024])
 
-y_te=np.ones([25*200,1])
+y_te=np.ones([25*200,1]) #设置的标签没有意义
 
 '''
 from scipy.io import loadmat,savemat
