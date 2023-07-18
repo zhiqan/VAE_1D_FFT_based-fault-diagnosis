@@ -2,7 +2,7 @@ from torch.utils.data import DataLoader
 import torch
 import torch.optim as optim
 from tqdm import tqdm
-from torchvision.datasets import MNIST
+#from torchvision.datasets import MNIST
 import torchvision
 import matplotlib.pyplot as plt
 import numpy as np
